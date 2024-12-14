@@ -1,4 +1,4 @@
-<?php
+
 session_start();
 if ($_SESSION['role'] != 1) {
     // Chỉ Admin mới có quyền truy cập
